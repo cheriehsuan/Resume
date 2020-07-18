@@ -1,0 +1,11 @@
+        <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="https://cheriehsuan.github.io/Resume/ " style="border-bottom: none;">SAM LIN</a></li>
+            </ul>
+            <% if(theme.busuanzi.enable === true ) { %>
+                <span id="busuanzi_container_site_pv">TOTAL VISITS OF THIS SITE <span id="busuanzi_value_site_pv"></span> TIMES</span>
+			<% } else { %>
+				<span id="busuanzi_container_site_pv"> <%- date(Date.now(), 'YYYY') %> </span> 
+			<% } %>
+        </div>
